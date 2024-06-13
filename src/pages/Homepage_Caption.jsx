@@ -1,23 +1,15 @@
 import React from "react";
-import { Button, Container } from "react-bootstrap";
+import { Button, Container, Row, Col } from "react-bootstrap";
 
 const Homepage_Caption = () => {
   return (
     <Container>
-      <Container style={{ display: "flex",  }}>
-        <Container
-          style={{
-            
-            borderRadius: "2rem",
-            overflow: "hidden", // add this to prevent the clipped shape from overflowing
-        
-            height: "30rem",
-          }}
-        >
-          <Container
+      <Row>
+        <Col xs={12} sm={6} md={6} lg={12} xl={12}>
+          <div
             style={{
               clipPath: `polygon(10% 6%, 91% 29%, 88% 46%, 58% 44%, 100% 56%, 46% 54%, 90% 66%, 0 51%, 5% 7%, 46% 22%)`,
-              width: "90rem",
+
               height: "30rem",
               background: "rgb(11,1,6)",
               background:
@@ -27,7 +19,7 @@ const Homepage_Caption = () => {
             <h2
               style={{
                 paddingTop: "110px",
-                paddingLeft:"2rem",
+                paddingLeft: "2rem",
                 fontWeight: "bold",
                 color: "white",
               }}
@@ -36,9 +28,9 @@ const Homepage_Caption = () => {
               in Sweet Perfection - Where Every Slice Tells a Story
               <span style={{ color: "white", fontSize: "5rem" }}>❞</span>
             </h2>
-          </Container>
-        </Container>
-      </Container>
+          </div>
+        </Col>
+      </Row>
     </Container>
   );
 };

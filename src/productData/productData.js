@@ -60,7 +60,7 @@
         title: "French Desserts",
         text: `₹ 60 per piece`,
         imgSrc: "https://www.foodandwine.com/thmb/LA6ENpgU9mzakSBcwZBDzIguff8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/HD-200912-r-raspberry-macarons-e5ee990ec25e4bc88a54d7a2e49d7ccd.jpg", 
-        alt:"desserts",
+        alt:"French Desserts",
         buttonText: "Take It Home✨",
         buttonLink: "https://web.whatsapp.com/",
         category:"Desserts"
@@ -69,7 +69,7 @@
         title: "Berry Desserts",
         text: `₹ 100 per piece`,
         imgSrc: "https://assets.bonappetit.com/photos/58e2844d1a544803d685bc96/1:1/w_320,c_limit/0417-BA-Best-Angel-Food-Cake.jpg", 
-        alt:"desserts",
+        alt:"Berry Desserts",
         buttonText: "Take It Home✨",
         buttonLink: "https://web.whatsapp.com/",
         category:"Desserts"
@@ -78,7 +78,7 @@
         title: "Oreo Desserts",
         text: `₹ 80 per piece`,
         imgSrc: "https://veggieworldrecipes.com/wp-content/uploads/2022/01/oreo-balls-recipe1-scaled-e1642181548233.jpg", 
-        alt:"desserts",
+        alt:"Oreo Desserts",
         buttonText: "Take It Home✨",
         buttonLink: "https://web.whatsapp.com/",
         category:"Desserts"
@@ -87,7 +87,7 @@
         title: "Red Velvet Muffins",
         text: `₹ 100 per piece`,
         imgSrc: "https://www.rainbownourishments.com/wp-content/uploads/2023/02/vegan-red-velvet-cupcakes-1.jpg", 
-        alt:"desserts",
+        alt:"Red Velvet Muffins",
         buttonText: "Take It Home✨",
         buttonLink: "https://web.whatsapp.com/",
         category:"Desserts"
@@ -96,7 +96,7 @@
         title: "Chocolate Muffins",
         text: `₹ 100 per piece`,
         imgSrc: "https://preppykitchen.com/wp-content/uploads/2021/02/Chocolate-Muffin-Recipe.jpg", 
-        alt:"desserts",
+        alt:"Chocolate Muffins",
         buttonText: "Take It Home✨",
         buttonLink: "https://web.whatsapp.com/",
         category: "Desserts"
@@ -105,7 +105,7 @@
         title: "Chocolate Brownie",
         text: `₹ 120 per piece`,
         imgSrc: "https://buttermilkbysam.com/wp-content/uploads/2020/04/img_5e93090d65965.jpg", 
-        alt:"desserts",
+        alt:"Chocolate Brownie",
         buttonText: "Take It Home✨",
         buttonLink: "https://web.whatsapp.com/",
         category:"Desserts"
@@ -117,7 +117,7 @@
         title: "Chocolate Doughnut",
         text: `₹ 50 per piece`,
         imgSrc: "https://www.mybakingaddiction.com/wp-content/uploads/2014/09/sprinkle-topped-chocolate-donuts-hero.jpg", 
-        alt:"desserts",
+        alt:"Chocolate Doughnut",
         buttonText: "Take It Home✨",
         buttonLink: "https://web.whatsapp.com/",
         category:"Doughnuts"
@@ -126,7 +126,7 @@
         title: "Cashew Doughnut",
         text: `₹ 80 per piece`,
         imgSrc: "https://c8.alamy.com/comp/2E30HMB/donut-or-glazed-cashew-nuts-with-3d-sprinklethread-with-colored-and-cup-of-coffee-2E30HMB.jpg", 
-        alt:"desserts",
+        alt:"Cashew Doughnut",
         buttonText: "Take It Home✨",
         buttonLink: "https://web.whatsapp.com/",
         category:"Doughnuts"
@@ -135,7 +135,7 @@
         title: "Hazelnut Doughnut",
         text: `₹ 80 per piece`,
         imgSrc: "https://webapibnc.azurewebsites.net/images/000521.jpg", 
-        alt:"desserts",
+        alt:"Hazelnut Doughnut",
         buttonText: "Take It Home✨",
         buttonLink: "https://web.whatsapp.com/",
         category:"Doughnuts"
@@ -144,7 +144,7 @@
         title: "Chocochip Doughnut",
         text: `₹ 60 per piece`,
         imgSrc: "https://kitchen335co.com/wp-content/uploads/2022/07/Chocolate-Chip-Donuts-BLOG-12-of-14.jpg", 
-        alt:"desserts",
+        alt:"Chocochip Doughnut",
         buttonText: "Take It Home✨",
         buttonLink: "https://web.whatsapp.com/",
         category:"Doughnuts"
@@ -154,7 +154,7 @@
         title: "Mini Doughnuts",
         text: `₹ 30 per piece`,
         imgSrc: "https://pinchofyum.com/wp-content/uploads/bakedminidonuts11.jpg", 
-        alt:"desserts",
+        alt:"Mini Doughnuts",
         buttonText: "Take It Home✨",
         buttonLink: "https://web.whatsapp.com/",
         category:"Doughnuts"
@@ -165,54 +165,54 @@
 
     {
         title: "Chikoo Shake",
-        text: `Delight in Every Bite with Our Delectable Desserts!`,
+        text: `₹ 90 `,
         imgSrc: "https://www.chaig.in/assets/images/products/8.jpg", 
-        alt:"desserts",
+        alt:"Chikoo Shake",
         buttonText: "Take It Home✨",
         buttonLink: "https://web.whatsapp.com/",
         category:"Shakes"
       },
       {
         title: "Papaya Shake",
-        text: `Delight in Every Bite with Our Delectable Desserts!`,
+        text: `₹ 90`,
         imgSrc: "https://img.freepik.com/premium-photo/papaya-shake_349936-1987.jpg", 
-        alt:"desserts",
+        alt:"Papaya Shake",
         buttonText: "Take It Home✨",
         buttonLink: "https://web.whatsapp.com/",
         category:"Shakes"
       },
       {
         title: "Shamam Shake",
-        text: `Delight in Every Bite with Our Delectable Desserts!`,
+        text: `₹ 80`,
         imgSrc: "https://www.buydaddy.in/wp-content/uploads/2020/05/shamam.jpg", 
-        alt:"desserts",
+        alt:"Shamam Shake",
         buttonText: "Take It Home✨",
         buttonLink: "https://web.whatsapp.com/",
         category:"Shakes"
       },
       {
         title: "Avocado Shake",
-        text: `Delight in Every Bite with Our Delectable Desserts!`,
+        text: `₹ 100`,
         imgSrc: "https://www.cubesnjuliennes.com/wp-content/uploads/2021/03/Avocado-Smoothie.jpg", 
-        alt:"desserts",
+        alt:"Avocado Shake",
         buttonText: "Take It Home✨",
         buttonLink: "https://web.whatsapp.com/",
         category:"Shakes"
       },
       {
-        title: "Desserts",
-        text: `Delight in Every Bite with Our Delectable Desserts!`,
-        imgSrc: "https://www.tasteofhome.com/wp-content/uploads/2018/01/Cherry-Delight-Dessert_EXPS_TOHcom23_27515_P2_MD_03_22_4b.jpg", 
-        alt:"desserts",
+        title: "Strawberry Shake",
+        text: `₹ 80`,
+        imgSrc: "https://marleysmenu.com/wp-content/uploads/2021/08/Strawberry-Oreo-Milkshake-Featured-Image.jpg", 
+        alt:"Strawberry Shake",
         buttonText: "Take It Home✨",
         buttonLink: "https://web.whatsapp.com/",
         category:"Shakes"
       },
       {
         title: "Kiwi Shake",
-        text: `Delight in Every Bite with Our Delectable Desserts!`,
+        text: `₹ 100`,
         imgSrc: "https://static.vecteezy.com/system/resources/previews/027/145/832/original/iced-kiwi-smoothie-drink-perfect-for-drink-catalog-ai-generated-png.png", 
-        alt:"desserts",
+        alt:"Kiwi Shake",
         buttonText: "Take It Home✨",
         buttonLink: "https://web.whatsapp.com/",
         category:"Shakes"
@@ -221,112 +221,112 @@
     //   -------------------------- juices ------------------------
 
     {
-        title: "Desserts",
-        text: `Delight in Every Bite with Our Delectable Desserts!`,
-        imgSrc: "https://www.tasteofhome.com/wp-content/uploads/2018/01/Cherry-Delight-Dessert_EXPS_TOHcom23_27515_P2_MD_03_22_4b.jpg", 
-        alt:"desserts",
+        title: "Watermelon Juice",
+        text: `₹ 50`,
+        imgSrc: "https://www.cubesnjuliennes.com/wp-content/uploads/2021/04/Fresh-Watermelon-Juice-Recipe.jpg", 
+        alt:"Watermelon Juice",
         buttonText: "Take It Home✨",
         buttonLink: "https://web.whatsapp.com/",
         category:"Juices"
       },
       {
-        title: "Desserts",
-        text: `Delight in Every Bite with Our Delectable Desserts!`,
-        imgSrc: "https://www.tasteofhome.com/wp-content/uploads/2018/01/Cherry-Delight-Dessert_EXPS_TOHcom23_27515_P2_MD_03_22_4b.jpg", 
-        alt:"desserts",
+        title: "Carrot Juice",
+        text: `₹ 60`,
+        imgSrc: "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/03/carrot-juice-recipe.jpg", 
+        alt:"Carrot Juice",
         buttonText: "Take It Home✨",
         buttonLink: "https://web.whatsapp.com/",
         category:"Juices"
       },
       {
-        title: "Desserts",
-        text: `Delight in Every Bite with Our Delectable Desserts!`,
-        imgSrc: "https://www.tasteofhome.com/wp-content/uploads/2018/01/Cherry-Delight-Dessert_EXPS_TOHcom23_27515_P2_MD_03_22_4b.jpg", 
-        alt:"desserts",
+        title: "Pineapple Juice",
+        text: `₹ 70`,
+        imgSrc: "https://5.imimg.com/data5/LT/XB/MY-28787720/pineapple-drink-500x500.jpg", 
+        alt:"Pineapple Juice",
         buttonText: "Take It Home✨",
         buttonLink: "https://web.whatsapp.com/",
         category:"Juices"
       },
       {
-        title: "Desserts",
-        text: `Delight in Every Bite with Our Delectable Desserts!`,
-        imgSrc: "https://www.tasteofhome.com/wp-content/uploads/2018/01/Cherry-Delight-Dessert_EXPS_TOHcom23_27515_P2_MD_03_22_4b.jpg", 
-        alt:"desserts",
+        title: "Orange Juice",
+        text: `₹ 60`,
+        imgSrc: "https://thumbs.dreamstime.com/b/orange-juice-17172736.jpg", 
+        alt:"Orange Juice",
         buttonText: "Take It Home✨",
         buttonLink: "https://web.whatsapp.com/",
         category:"Juices"
       },
       {
-        title: "Desserts",
-        text: `Delight in Every Bite with Our Delectable Desserts!`,
-        imgSrc: "https://www.tasteofhome.com/wp-content/uploads/2018/01/Cherry-Delight-Dessert_EXPS_TOHcom23_27515_P2_MD_03_22_4b.jpg", 
-        alt:"desserts",
+        title: "Musambi Juice",
+        text: `₹ 70`,
+        imgSrc: "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=1080/assets/search/usecase/mosambi_juice_zdish.png", 
+        alt:"Musambi Juice",
         buttonText: "Take It Home✨",
         buttonLink: "https://web.whatsapp.com/",
         category:"Juices"
       },
       {
-        title: "Desserts",
-        text: `Delight in Every Bite with Our Delectable Desserts!`,
-        imgSrc: "https://www.tasteofhome.com/wp-content/uploads/2018/01/Cherry-Delight-Dessert_EXPS_TOHcom23_27515_P2_MD_03_22_4b.jpg", 
-        alt:"desserts",
+        title: "Grape Juice",
+        text: `₹ 70`,
+        imgSrc: "https://4.imimg.com/data4/VT/LQ/MY-31657999/grape-juice-500x500.jpg", 
+        alt:"Grape Juice",
         buttonText: "Take It Home✨",
         buttonLink: "https://web.whatsapp.com/",
         category:"Juices"
       },
 
-    //   -------------------------------- ice creams -----------------------
+    //   ------------------------------ Pasteries -----------------------
 
     {
-        title: "Pasteries",
-        text: `Delight in Every Bite with Our Delectable Desserts!`,
-        imgSrc: "https://www.tasteofhome.com/wp-content/uploads/2018/01/Cherry-Delight-Dessert_EXPS_TOHcom23_27515_P2_MD_03_22_4b.jpg", 
-        alt:"desserts",
+        title: "Black Forest",
+        text: `₹ 60 per piece`,
+        imgSrc: "https://patelbakery.in/wp-content/uploads/2021/06/BlackForestPastry1-new.jpg", 
+        alt:"Black Forest",
         buttonText: "Take It Home✨",
         buttonLink: "https://web.whatsapp.com/",
         category:"Pasteries"
       },
       {
-        title: "Pasteries",
-        text: `Delight in Every Bite with Our Delectable Desserts!`,
-        imgSrc: "https://www.tasteofhome.com/wp-content/uploads/2018/01/Cherry-Delight-Dessert_EXPS_TOHcom23_27515_P2_MD_03_22_4b.jpg", 
-        alt:"desserts",
+        title: "Caramelised Pineapple",
+        text: `₹ 80 per piece`,
+        imgSrc: "https://www.simplylowcal.com/wp-content/uploads/2023/05/lemon-cake-with-pineapple-filling-thumbnail.jpg", 
+        alt:"Caramelised Pineapple",
         buttonText: "Take It Home✨",
         buttonLink: "https://web.whatsapp.com/",
         category:"Pasteries"
       },
       {
-        title: "Pasteries",
-        text: `Delight in Every Bite with Our Delectable Desserts!`,
-        imgSrc: "https://www.tasteofhome.com/wp-content/uploads/2018/01/Cherry-Delight-Dessert_EXPS_TOHcom23_27515_P2_MD_03_22_4b.jpg", 
-        alt:"desserts",
+        title: "Vancho",
+        text: `₹ 100 per piece`,
+        imgSrc: "https://cutiepiecakes.com/cdn/shop/files/VANCHO.jpg?v=1703301841", 
+        alt:"Vancho",
         buttonText: "Take It Home✨",
         buttonLink: "https://web.whatsapp.com/",
         category:"Pasteries"
       },
       {
-        title: "Pasteries",
-        text: `Delight in Every Bite with Our Delectable Desserts!`,
-        imgSrc: "https://www.tasteofhome.com/wp-content/uploads/2018/01/Cherry-Delight-Dessert_EXPS_TOHcom23_27515_P2_MD_03_22_4b.jpg", 
-        alt:"desserts",
+        title: "Chocolate Truffle",
+        text: `₹ 100 per piece`,
+        imgSrc: "https://www.thecookingcollective.com.au/wp-content/uploads/2022/08/chocolate-caramel-cake-4.jpg", 
+        alt:"Chocolate Truffle",
         buttonText: "Take It Home✨",
         buttonLink: "https://web.whatsapp.com/",
         category:"Pasteries"
       },
       {
-        title: "Pasteries",
-        text: `Delight in Every Bite with Our Delectable Desserts!`,
-        imgSrc: "https://www.tasteofhome.com/wp-content/uploads/2018/01/Cherry-Delight-Dessert_EXPS_TOHcom23_27515_P2_MD_03_22_4b.jpg", 
-        alt:"desserts",
+        title: "Raffaello",
+        text: `₹ 140 per piece`,
+        imgSrc: "https://cdn11.bigcommerce.com/s-21ntmrkfhf/images/stencil/1280x1280/products/16020/10839/A_Sliced_Of_Raffaello_Cake__79675.1679971155.png?c=2?imbypass=on", 
+        alt:"Raffaello",
         buttonText: "Take It Home✨",
         buttonLink: "https://web.whatsapp.com/",
         category:"Pasteries"
       },
       {
-        title: "Pasteries",
-        text: `Delight in Every Bite with Our Delectable Desserts!`,
-        imgSrc: "https://www.tasteofhome.com/wp-content/uploads/2018/01/Cherry-Delight-Dessert_EXPS_TOHcom23_27515_P2_MD_03_22_4b.jpg", 
-        alt:"desserts",
+        title: "Ferrero Rocher",
+        text: `₹ 180 per piece`,
+        imgSrc: "https://bonniesbakery.in/wp-content/uploads/2023/09/112.jpg", 
+        alt:"Ferrero Rocher",
         buttonText: "Take It Home✨",
         buttonLink: "https://web.whatsapp.com/",
         category:"Pasteries"

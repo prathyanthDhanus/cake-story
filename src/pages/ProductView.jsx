@@ -4,12 +4,14 @@ import { Container, Row, Col } from 'react-bootstrap';
 import {productData }from "../productData/productData";
 import { useParams } from 'react-router-dom';
 
+
+
 const ProductView = () => {
 
     const {category} = useParams();
-    console.log(category)
-
+    
     const filteredData = productData.filter((item)=>item.category===category);
+   
     
   return (
     <div>
@@ -21,13 +23,13 @@ const ProductView = () => {
           padding: "5rem",
         }}
       >
-        <h1 style={{ fontWeight: "bolder", color: "#ffff" }}>Our Products</h1>
+        <h1 style={{ fontWeight: "bolder", color: "#ffff" }}>{filteredData[0].category}</h1>
       </div>
       <Container >
         <Row  >
           {filteredData.map((card, index) => (
             <Col md={4}  key={index} >
-                <div className="p-4">
+                <div className="p-5">
 
               <ReusableCard 
                 title={card.title}

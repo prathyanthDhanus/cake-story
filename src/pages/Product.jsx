@@ -74,7 +74,7 @@ const Product = () => {
         <Row  >
           {cardData.map((card, index) => (
             <Col md={4}  key={index} >
-                <div className="p-4">
+                <div className="p-5">
 
               <ReusableCard 
                 title={card.title}

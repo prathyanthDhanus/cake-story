@@ -17,81 +17,106 @@ const Delivery = () => {
       </div>
 
       {/* --------------------- delivery container div  ------------------------------ */}
-      <div style={{ display: "flex", height: "30rem",  }}>
-        
+      <Container>
         {/* delivery agent image div */}
-        <div style={{ width: "40%" }}>
-          <img
-            src="https://img.freepik.com/premium-vector/    express-delivery-logo-design-vector-template_441059-205.jpg"
-            alt="delivery agent"
-            style={{ width: "30rem", borderRadius: "3rem 5rem 3rem 5rem " }}
-          />
-        </div>
-        {/* image div end */}
-
-        <div style={{ width: "60%", padding: "5em" }}>
-          <h2 >Experienced Delivery Agents</h2>
-          <p >
-            At our Cake Story, we understand that the journey of your cake is
-            just as important as its creation. That's why we employ only the
-            most experienced delivery agents, dedicated to ensuring your order
-            arrives fresh, intact, and on time. With meticulous attention to
-            detail and a deep understanding of our products, our delivery team
-            guarantees that every cake is handled with the utmost care. Whether
-            it's a birthday surprise, a wedding centerpiece, or a simple treat,
-            you can trust our seasoned professionals to deliver your moments of
-            joy right to your doorstep.
-          </p>
-        </div>
-      </div>
+        <Row>
+          <Col xs={12} sm={6} md={6} lg={6} xl={6}>
+            <img
+              src="https://img.freepik.com/premium-vector/    express-delivery-logo-design-vector-template_441059-205.jpg"
+              alt="delivery agent"
+              className="w-100"
+            />
+          </Col>
+          {/* image div end */}
+          <Col>
+            <div className="mt-lg-5 pt-xl-5">
+              <div className="p-3">
+                <h2>Experienced Delivery Agents</h2>
+                <p>
+                  At our Cake Story, we understand that the journey of your cake
+                  is just as important as its creation. That's why we employ
+                  only the most experienced delivery agents, dedicated to
+                  ensuring your order arrives fresh, intact, and on time. With
+                  meticulous attention to detail and a deep understanding of our
+                  products, our delivery team guarantees that every cake is
+                  handled with the utmost care. Whether it's a birthday
+                  surprise, a wedding centerpiece, or a simple treat, you can
+                  trust our seasoned professionals to deliver your moments of
+                  joy right to your doorstep.
+                </p>
+                <p>
+                  At our Cake Story, we understand that the journey of your cake
+                  is just as important as its creation. That's why we employ
+                  only the most experienced delivery agents, dedicated to
+                  ensuring your order arrives fresh, intact, and on time. With
+                  meticulous attention to detail and a deep understanding of our
+                  products, our delivery team guarantees that every cake is
+                  handled with the utmost care. Whether it's a birthday
+                  surprise, a wedding centerpiece, or a simple treat, you can
+                  trust our seasoned professionals to deliver your moments of
+                  joy right to your doorstep.
+                </p>
+              </div>
+            </div>
+          </Col>
+        </Row>
+      </Container>
       {/*---------------------- delivery charges div ----------------------*/}
-       <div
-      style={{
-        background: `linear-gradient(0deg, rgba(248,124,180,1) 3%, rgba(232,192,210,1) 44%, rgba(232,192,210,1) 95%)`,
-      }}
-    >
-        <h2 style={{ textAlign: "center",paddingTop:"2rem" }}>Delivery Charges</h2>
-        <div style={{ display: "flex"}}>
-
-            {/* delivery charges table div */}
-          <div style={{ padding: "5rem" ,width:"40rem"}}>
-            <Table striped bordered hover style={{border: "2px solid #690C36",marginTop:"3rem"}}>
-              <tbody>
-                <tr>
-                  <td>Within 10 K.Ms</td>
-                  <td>Free</td>
-                </tr>
-                <tr>
-                  <td>Within 20 K.Ms</td>
-                  <td>200</td>
-                </tr>
-                <tr>
-                  <td>Within 30 K.Ms</td>
-                  <td>300</td>
-                </tr>
-                <tr>
-                  <td>Within 40 K.Ms</td>
-                  <td>350</td>
-                </tr>
-                <tr>
-                  <td>40 K.Ms to 80 K.Ms</td>
-                  <td>500</td>
-                </tr>
-              </tbody>
-            </Table>
-          </div>
-          {/* delivery charges table div end */}
-
+      <div
+        style={{
+          background: `linear-gradient(0deg, rgba(248,124,180,1) 3%, rgba(232,192,210,1) 44%, rgba(232,192,210,1) 95%)`,
+        }}
+      >
+        <h2 style={{ textAlign: "center", paddingTop: "2rem" }}>
+          Delivery Charges
+        </h2>
+        <Container>
+      
+          {/* delivery charges table div */}
+          <Row>
+        
+              <Col xs={12} sm={6} md={6} lg={6} xl={6}>
+                <Table
+                  striped
+                  bordered
+                  hover
+                  style={{ border: "2px solid #690C36", marginTop: "3rem" }}
+                >
+                  <tbody>
+                    <tr>
+                      <td>Within 10 K.Ms</td>
+                      <td>Free</td>
+                    </tr>
+                    <tr>
+                      <td>Within 20 K.Ms</td>
+                      <td>200</td>
+                    </tr>
+                    <tr>
+                      <td>Within 30 K.Ms</td>
+                      <td>300</td>
+                    </tr>
+                    <tr>
+                      <td>Within 40 K.Ms</td>
+                      <td>350</td>
+                    </tr>
+                    <tr>
+                      <td>40 K.Ms to 80 K.Ms</td>
+                      <td>500</td>
+                    </tr>
+                  </tbody>
+                </Table>
+              </Col>
+          
+            {/* delivery charges table div end */}
 
             {/* svg icon div */}
-          <div>
-            <Row>
+            
               <Col xs={12} sm={6} md={6} lg={6} xl={6}>
                 <svg
                   id="sw-js-blob-svg"
                   viewBox="0 0 100 100"
                   xmlns="http://www.w3.org/2000/svg"
-                  style={{ height: "30.9rem" }}
+                  
                 >
                   <defs>
                     <linearGradient
@@ -139,11 +164,11 @@ const Delivery = () => {
                   </foreignObject>
                 </svg>
               </Col>
-            </Row>
-          </div>
-          {/* svg icon end */}
-
-        </div>
+          
+            {/* svg icon end */}
+          </Row>
+       
+        </Container>
       </div>
       {/* --------------------- delivery charges div end--------------------- */}
       {/* --------------------- delivery container div end  ------------------------------ */}

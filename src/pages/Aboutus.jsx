@@ -1,7 +1,7 @@
 
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 
 const Aboutus = () => {
   return (
@@ -30,7 +30,7 @@ const Aboutus = () => {
               id="sw-js-blob-svg"
               viewBox="0 0 100 100"
               xmlns="http://www.w3.org/2000/svg"
-              style={{ height: "41.9rem" }}
+              // style={{ height: "41.9rem" }}
             >
               <defs>
                 <linearGradient id="sw-gradient" x1="0" x2="1" y1="1" y2="0">
@@ -90,7 +90,7 @@ const Aboutus = () => {
               backgroundColor: "#690C36",
             }}
           >
-            <div style={{ padding: "2rem" }}>
+            <div className="p-4">
               <h2 style={{ color: "#ffff" }}>Our Mission</h2>
               <p style={{ color: "#ffff" }}>
                 Our mission is to transform the eating habits of the Keralites
@@ -108,7 +108,7 @@ const Aboutus = () => {
             xl={4}
             style={{ backgroundColor: "#690C36" }}
           >
-            <div style={{ padding: "2rem" }}>
+            <div className="p-4">
               <h2 style={{ color: "#ffff" }}>Our Vision</h2>
               <p style={{ color: "#ffff" }}>
                 We have envisioned ourselves among one of the revolutionary
@@ -127,7 +127,7 @@ const Aboutus = () => {
             xl={4}
             style={{ backgroundColor: "#690C36" }}
           >
-            <div style={{ padding: "2rem" }}>
+            <div className="p-4">
               <h2 style={{ color: "#ffff" }}>Our Quality</h2>
               <p style={{ color: "#ffff" }}>
                 We give no compromise on quality for all the aspects of our
@@ -139,11 +139,14 @@ const Aboutus = () => {
             </div>
           </Col>
         </Row>
+
         <div style={{textAlign:"center",padding:"3rem"}}>
 
       
         <h2>Our Branches</h2>
-        <div style={{display:"flex"}}>
+        <div>
+          <Row>
+
           
         <Col
             xs={12}
@@ -153,9 +156,9 @@ const Aboutus = () => {
             xl={4}
            
           >
-            <div style={{ padding: "2rem", display:"flex" ,}}>
+            <div className="d-flex p-5">
                
-              <h5 style={{padding:"1.5rem"}}>🧁KERALA</h5>
+              <h5 className="p-3">🧁KERALA</h5>
              
             </div>
           </Col>
@@ -167,9 +170,9 @@ const Aboutus = () => {
             xl={4}
            
           >
-             <div style={{ padding: "2rem", display:"flex" }}>
+             <div className="d-flex p-5">
                
-            <h5 style={{padding:"1.5rem"}}>🧁TAMILNADU</h5>
+            <h5 className="p-3">🧁TAMILNADU</h5>
              
             </div>
           </Col>
@@ -181,13 +184,13 @@ const Aboutus = () => {
             xl={4}
            
           >
-             <div style={{ padding: "2rem", display:"flex" ,paddingTop:"3rem"}}>
+             <div className="d-flex p-5">
                 
-            <h5 style={{paddingLeft:"1rem"}}>🧁KARNADAKA</h5>
+            <h5 className="p-3">🧁KARNADAKA</h5>
              
             </div>
           </Col>
-
+          </Row>
         </div>
         </div>
       </Container>

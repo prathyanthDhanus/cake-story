@@ -7,7 +7,7 @@ import Aboutus from './pages/Aboutus';
 import Delivery from './pages/Delivery';
 import Contactus from './pages/Contactus';
 import Product from './pages/Product';
-import CustomizedCake from './pages/CustomizedCake';
+import CustomizedCakes from './pages/CustomizedCake';
 import ProductView from './pages/ProductView';
 
 function App() {
@@ -22,7 +22,7 @@ function App() {
     <Route path='/delivery' element={<Delivery/>}/>
     <Route path='/contactus' element={<Contactus/>}/>
     <Route path='/products' element={<Product/>}/>
-    <Route path='/custom/cakes' element={<CustomizedCake/>}/>
+    <Route path='/custom/cakes' element={<CustomizedCakes/>}/>
     <Route path='/view/products/:category' element={<ProductView/>}/>
     
     </Routes>
