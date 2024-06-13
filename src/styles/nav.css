@@ -1,0 +1,80 @@
+.nav-head {
+    color: white; 
+    border: none;
+    background-color: #690C36;
+    padding: 1.5rem;
+  }
+  
+  .nav-head:hover {
+    color: gold;
+    text-decoration: underline;
+    text-decoration-thickness: 2px; 
+    text-underline-offset: 5px;
+   
+  }
+  
+  .nav-head:active {
+    color: gold;
+  }
+
+  /* --------------- whatsapp icon order now portion ------------------ */
+
+  .whatspp-maindiv{
+    background-color: yellow;
+    width: 14rem;
+    height: 3rem;
+    border-radius: 2rem;
+    overflow: hidden;
+  }
+
+  .whatsapp-iconDiv{
+    text-align: center;
+    width: 30%;
+    font-size: 2rem;
+    animation: pulse 2s infinite;
+  }
+  @keyframes pulse {
+    0% {
+      transform: scale(1.2);
+    }
+    50% {
+      transform: scale(1.1);
+      color: #690C36;
+    }
+    100% {
+      transform: scale(1);
+      color: green;
+    }
+  }
+
+  .orderNow-Btn{
+    margin-top: 0.5rem;
+    width: 100%;
+    border: none;
+    font-size: large;
+    font-weight: bold;
+    padding-right: 3rem;
+    
+    
+  }
+
+  .whatspp-maindiv:hover{
+     background-color:white;
+     cursor: pointer;
+  }
+
+  .orderNow-Btn:hover{
+    background-color:white;
+    color: #690C36;
+  }
+
+  /* -------------------- whatsapp portion ordernow end -------------------- */
+
+  body {
+  
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+
+  }
+  

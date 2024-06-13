@@ -1,0 +1,26 @@
+.footer-icons{
+    font-size: 24px;
+    color: white;
+  
+}
+
+.footer-icons:hover{
+     color:gold;
+     font-size: 30px;
+}
+
+.footer-h5{
+    color: rgb(221, 221, 59);
+    text-decoration: underline;
+    text-decoration-thickness: 2px; 
+    text-underline-offset: 5px;
+    padding-bottom: 10px;
+}
+
+.footer-mail{
+    color: white;
+}
+
+.list-inline-item{
+    padding: 2px;
+}
