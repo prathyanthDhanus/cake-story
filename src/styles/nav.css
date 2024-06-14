@@ -46,6 +46,12 @@
       color: green;
     }
   }
+  @media (max-width: 575.98px) { /* xs */
+    .whatspp-maindiv {
+      margin-left: 4rem;
+     
+    }
+  }
 
   .orderNow-Btn{
     margin-top: 0.5rem;
@@ -68,7 +74,7 @@
     color: #690C36;
   }
 
-  /* -------------------- whatsapp portion ordernow end -------------------- */
+  /* -------------------- whatsapp portion order now end -------------------- */
 
   body {
   

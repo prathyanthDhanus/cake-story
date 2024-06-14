@@ -1,21 +1,13 @@
 import React from "react";
 import { Button, Container, Row, Col } from "react-bootstrap";
+import "../styles/home_product.css";
 
 const Homepage_Caption = () => {
   return (
     <Container>
       <Row>
-        <Col xs={12} sm={6} md={6} lg={12} xl={12}>
-          <div
-            style={{
-              clipPath: `polygon(10% 6%, 91% 29%, 88% 46%, 58% 44%, 100% 56%, 46% 54%, 90% 66%, 0 51%, 5% 7%, 46% 22%)`,
-
-              height: "30rem",
-              background: "rgb(11,1,6)",
-              background:
-                "linear-gradient(0deg, rgba(11,1,6,1) 0%, rgba(184,15,91,0.9894082633053222) 78%)",
-            }}
-          >
+        <Col xs={12} sm={12} md={12} lg={12} xl={12}>
+          <div className="caption-container">
             <h2
               style={{
                 paddingTop: "110px",

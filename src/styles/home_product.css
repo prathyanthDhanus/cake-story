@@ -1,32 +1,82 @@
 .image-description-div1 {
-    width: 150px;
-    height: 60px;
-    border-radius: 50%;
-    background-color: #690C36;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   
-  }
+  width: 150px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #690c36;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-  .image-description-h1{
-    color: white;
-    font-size: 1.5rem;
-  }
+.image-description-h1 {
+  color: white;
+  font-size: 1.5rem;
+}
 
-  .image-description-h1:hover{
-    color: black;
-  }
+.image-description-h1:hover {
+  color: black;
+}
 
-  .image-description-div1:hover{
-    background-color: gold;
-    cursor: pointer;
-  }
+.image-description-div1:hover {
+  background-color: gold;
+  cursor: pointer;
+}
 
-  .image-description-div2{
-    padding-left: 2rem;
-  }
+.image-description-div2 {
+  padding-left: 2rem;
+}
 
-  .image-description-div2 h4{
-    font-weight: bold;
+.image-description-div2 h4 {
+  font-weight: bold;
+}
+
+/* ------ home caption component css ---------- */
+
+/* Default styles for xs, sm, and md */
+.caption-container {
+  height: 30rem;
+  background: rgb(11, 1, 6);
+  background: linear-gradient(
+    0deg,
+    rgba(11, 1, 6, 1) 0%,
+    rgba(184, 15, 91, 0.9894082633053222) 78%
+  );
+}
+
+
+
+/* Styles for lg and xl */
+@media (min-width: 992px) {
+  .caption-container {
+    clip-path: polygon(
+      10% 6%,
+      91% 29%,
+      88% 46%,
+      58% 44%,
+      100% 56%,
+      46% 54%,
+      90% 66%,
+      0 51%,
+      5% 7%,
+      46% 22%
+    );
+    
   }
+ 
+ 
+}
+
+@media (max-width: 992px) {
+  .caption-container span {
+   display: none;
+
+  }
+  .caption-container  {
+    padding: 3rem;
+    border-radius: 1rem;
+    margin: 2rem;
+ 
+   }
+ 
+ 
+}

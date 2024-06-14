@@ -8,6 +8,7 @@ const Home_Product = () => {
     <>
       <Container>
         <Row>
+           {/* -------------------- col for head and description start-------------------- */}
           <Col xs={12} sm={6} md={6} lg={6} xl={12}>
             <div style={{ textAlign: "center", margin: "3rem" }}>
               <h3>Why our products are the best?</h3>
@@ -20,7 +21,8 @@ const Home_Product = () => {
               </p>
             </div>
           </Col>
-          {/* --------------------------- parent div for image and description ------------------------ */}
+          {/* ----------------------- col for head and description end ------------------------ */}
+          {/* ----------------------- col for left side description ------------------------ */}
 
           <Col xs={12} sm={6} md={6} lg={6} xl={4}>
             <div className="p-4">
@@ -71,7 +73,8 @@ const Home_Product = () => {
             </div>
           </Col>
 
-          {/* ----------------------------- image div start ---------------------------- */}
+          {/* ------------------------- col for left side description -------------------------- */}
+          {/* ----------------------------- image col start ---------------------------- */}
           <Col xs={12} sm={6} md={6} lg={6} xl={4}>
             <div>
               <img
@@ -85,7 +88,8 @@ const Home_Product = () => {
               />
             </div>
           </Col>
-          {/* ----------------------------- image div end ---------------------------- */}
+          {/* ----------------------------- image col end ---------------------------- */}
+          {/* ----------------------------- right side col start ---------------------------- */}
           <Col xs={12} sm={6} md={6} lg={6} xl={4}>
             <div>
               <div className="p-4">
@@ -133,6 +137,7 @@ const Home_Product = () => {
               </div>
             </div>
           </Col>
+          {/* ----------------------------- right side col end ---------------------------- */}
         </Row>
       </Container>
       {/* ------------------------ parent div for image and description end ------------------------ */}
