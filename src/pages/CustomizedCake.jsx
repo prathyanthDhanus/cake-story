@@ -13,7 +13,7 @@ const cardData = [
       buttonLink: "https://web.whatsapp.com/"
     },
     {
-      title: "Desserts",
+      title: "Cakes",
       text: `Celebrate Every Moment with Our Irresistible Cakes!`,
       imgSrc: "https://www.cakesquarechennaionline.com/wp-content/uploads/2023/09/anniversary-cake-50-1.jpg", 
       alt:"desserts",
@@ -21,7 +21,7 @@ const cardData = [
       buttonLink: "https://www.instagram.com/"
     },
     {
-      title: "Doughnuts",
+      title: "Cakes",
       text: `Celebrate Every Moment with Our Irresistible Cakes!`,
       imgSrc: "https://www.cta.ae/cdn/shop/products/FB_IMG_1613901176458_800x.jpg?v=1672842290", 
       alt:"doughmuts",
@@ -29,7 +29,7 @@ const cardData = [
       buttonLink: "https://www.facebook.com/"
     },
     {
-      title: "Shakes",
+      title:"Cakes",
       text: `Celebrate Every Moment with Our Irresistible Cakes!`,
       imgSrc: "https://cpimg.tistatic.com/06523896/b/4/Customised-Cake.jpg", 
       alt:"shakes",
@@ -37,7 +37,7 @@ const cardData = [
       
     },
     {
-      title: "Juices",
+      title:"Cakes",
       text: `Celebrate Every Moment with Our Irresistible Cakes!`,
       imgSrc: "https://karowish.com/cdn/shop/files/WhatsAppImage2024-02-17at5.26.49PM.jpg?v=1708171947", 
       alt:"juices",
@@ -45,7 +45,7 @@ const cardData = [
      
     },
     {
-      title: "Pasteries",
+      title: "Cakes",
       text: `Celebrate Every Moment with Our Irresistible Cakes!`,
       imgSrc: "https://obrownies.com/wp-content/uploads/2021/12/Custom-cake-17.jpg", 
       alt:"pasteries",

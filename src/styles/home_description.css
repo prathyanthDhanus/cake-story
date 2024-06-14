@@ -4,13 +4,13 @@
     width: 35rem;
     border-radius: 2rem 5rem 2rem 5rem;
     box-shadow: 0 0 2rem rgba(0, 0, 0, 0.2);
-    margin: 5rem auto;
+    
   }
   
   .carousel-container {
     padding: 3rem;
     background-color: #690C36;
-    margin-top: 3rem;
+    margin-top: 6rem;
   }
   
   @media (max-width: 480px) {

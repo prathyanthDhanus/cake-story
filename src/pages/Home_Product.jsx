@@ -2,13 +2,35 @@ import React from "react";
 import "../styles/home_product.css";
 import Homepage_Caption from "./Homepage_Caption";
 import { Container, Row, Col } from "react-bootstrap";
+import { motion } from "framer-motion";
 
 const Home_Product = () => {
+  
+  const cardVariants = {
+    offscreen: {
+      y: 25,
+      opacity: 0,
+    },
+    onscreen: {
+      y: 50,
+      opacity: 1,
+      transition: {
+        type: "pop",
+        bounce: 0.8,
+        duration: 0.8,
+        stiffness: 100,
+        damping: 15,
+      },
+    },
+  };
+
+  
+
   return (
     <>
       <Container>
         <Row>
-           {/* -------------------- col for head and description start-------------------- */}
+          {/* -------------------- col for head and description start-------------------- */}
           <Col xs={12} sm={6} md={6} lg={6} xl={12}>
             <div style={{ textAlign: "center", margin: "3rem" }}>
               <h3>Why our products are the best?</h3>
@@ -25,52 +47,58 @@ const Home_Product = () => {
           {/* ----------------------- col for left side description ------------------------ */}
 
           <Col xs={12} sm={6} md={6} lg={6} xl={4}>
-            <div className="p-4">
-              <div className="d-flex">
-                <div className="image-description-div1">
-                  <h1 className="image-description-h1">01</h1>
-                </div>
-                <div className="image-description-div2">
-                  <h4>Modern baking culture</h4>
-                  <p>
-                    Cake Story is one of the finest bakers in Kerala and the
-                    first one to introduce modern baking methods, including live
-                    cake making.
-                  </p>
-                </div>
+            <motion.div
+              initial="offscreen"
+              whileInView="onscreen"
+              viewport={{ amount: 0.8 }}
+            >
+              <div className="p-4">
+                <motion.div className="d-flex" variants={cardVariants}>
+                  <div className="image-description-div1">
+                    <h1 className="image-description-h1">01</h1>
+                  </div>
+                  <div className="image-description-div2">
+                    <h4>Modern baking culture</h4>
+                    <p>
+                      Cake Story is one of the finest bakers in Kerala and the
+                      first one to introduce modern baking methods, including
+                      live cake making.
+                    </p>
+                  </div>
+                </motion.div>
               </div>
-            </div>
 
-            <div className="p-4">
-              <div className="d-flex">
-                <div className="image-description-div1">
-                  <h1 className="image-description-h1">02</h1>
-                </div>
-                <div className="image-description-div2">
-                  <h4>Healthy and hygienic</h4>
-                  <p>
-                    At Cake Story, we give no compromise on maintaining a
-                    healthy and hygienic atmosphere for baking our products.
-                  </p>
-                </div>
+              <div className="p-4">
+                <motion.div className="d-flex" variants={cardVariants}>
+                  <div className="image-description-div1">
+                    <h1 className="image-description-h1">02</h1>
+                  </div>
+                  <div className="image-description-div2">
+                    <h4>Healthy and hygienic</h4>
+                    <p>
+                      At Cake Story, we give no compromise on maintaining a
+                      healthy and hygienic atmosphere for baking our products.
+                    </p>
+                  </div>
+                </motion.div>
               </div>
-            </div>
 
-            <div className="p-4">
-              <div className="d-flex">
-                <div className="image-description-div1">
-                  <h1 className="image-description-h1">03</h1>
-                </div>
-                <div className="image-description-div2">
-                  <h4>Internationally inspired recipes</h4>
-                  <p>
-                    Our partners travelled to many countries to experience the
-                    quality of international recipes to bring home the
-                    inspiration.
-                  </p>
-                </div>
+              <div className="p-4">
+                <motion.div className="d-flex" variants={cardVariants}>
+                  <div className="image-description-div1">
+                    <h1 className="image-description-h1">03</h1>
+                  </div>
+                  <div className="image-description-div2">
+                    <h4>Internationally inspired recipes</h4>
+                    <p>
+                      Our partners travelled to many countries to experience the
+                      quality of international recipes to bring home the
+                      inspiration.
+                    </p>
+                  </div>
+                </motion.div>
               </div>
-            </div>
+            </motion.div>
           </Col>
 
           {/* ------------------------- col for left side description -------------------------- */}
@@ -83,7 +111,7 @@ const Home_Product = () => {
                 style={{
                   maxWidth: "100%", // make image responsive
                   height: "auto", // maintain aspect ratio
-                  margin: "2rem auto",
+                  margin: "4rem auto",
                 }}
               />
             </div>
@@ -91,9 +119,13 @@ const Home_Product = () => {
           {/* ----------------------------- image col end ---------------------------- */}
           {/* ----------------------------- right side col start ---------------------------- */}
           <Col xs={12} sm={6} md={6} lg={6} xl={4}>
-            <div>
+            <motion.div
+              initial="offscreen"
+              whileInView="onscreen"
+              viewport={{ amount: 0.8 }}
+            >
               <div className="p-4">
-                <div className="d-flex">
+                <motion.div className="d-flex" variants={cardVariants}>
                   <div className="image-description-div1">
                     <h1 className="image-description-h1">04</h1>
                   </div>
@@ -104,10 +136,10 @@ const Home_Product = () => {
                       bake quality and delicious products for our customers.
                     </p>
                   </div>
-                </div>
+                </motion.div>
               </div>
               <div className="p-4">
-                <div className="d-flex">
+                <motion.div className="d-flex" variants={cardVariants}>
                   <div className="image-description-div1">
                     <h1 className="image-description-h1">05</h1>
                   </div>
@@ -118,10 +150,10 @@ const Home_Product = () => {
                       from foreign countries to bake the best quality bakeries.
                     </p>
                   </div>
-                </div>
+                </motion.div>
               </div>
               <div className="p-4">
-                <div className="d-flex">
+                <motion.div className="d-flex" variants={cardVariants}>
                   <div className="image-description-div1">
                     <h1 className="image-description-h1">06</h1>
                   </div>
@@ -133,9 +165,9 @@ const Home_Product = () => {
                       our customers
                     </p>
                   </div>
-                </div>
+                </motion.div>
               </div>
-            </div>
+            </motion.div>
           </Col>
           {/* ----------------------------- right side col end ---------------------------- */}
         </Row>

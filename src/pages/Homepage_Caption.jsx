@@ -1,6 +1,7 @@
 import React from "react";
-import { Button, Container, Row, Col } from "react-bootstrap";
+import {  Container, Row, Col } from "react-bootstrap";
 import "../styles/home_product.css";
+
 
 const Homepage_Caption = () => {
   return (

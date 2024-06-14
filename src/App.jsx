@@ -16,6 +16,7 @@ import Spinner from './components/Loader';
 function App() {
   const Home = lazy(() => import('./pages/Home'));
   const [isLoading, setIsLoading] = useState(true);
+ 
 
   useEffect(() => {
     const timeoutId = setTimeout(() => {
@@ -33,6 +34,7 @@ function App() {
     <>
     <Suspense fallback={<Spinner/>}>
     <NavbarComponent/>
+  
     <Routes>
     <Route path='/' element={<Home/>}/>
     <Route path='/aboutus' element={<Aboutus/>}/>

@@ -1,17 +1,18 @@
-import React from 'react';
-import Home_Description from './Home_Description';
-
-
+import React from "react";
+import Home_Description from "./Home_Description";
+import"../styles/framer.css"
 
 const Home = () => {
+
+
+
   return (
-    <div>
-    
-     <Home_Description/>
-    
+    <>
+   
 
-    </div>
-  )
-}
+      <Home_Description />
+    </>
+  );
+};
 
-export default Home
+export default Home;

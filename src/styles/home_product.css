@@ -35,6 +35,7 @@
 /* Default styles for xs, sm, and md */
 .caption-container {
   height: 30rem;
+  margin-top: 2rem;
   background: rgb(11, 1, 6);
   background: linear-gradient(
     0deg,
